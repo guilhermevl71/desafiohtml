@@ -18,7 +18,7 @@
 }
 
 .cabecalho__logo {
-
+    width: 10%;
 }
 
 .cabecalho__menu {
@@ -62,6 +62,10 @@ body {
     font-size: 1.125rem;
 }
 
+.apresentacao__img-container {
+    
+}
+
 .apresentacao__img {
     width: 100%;
 }
@@ -87,4 +91,11 @@ body {
 
 .rodape__logo {
     padding: 0 1%;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        padding: 0;
+        justify-content: center;
+    }
 }
