@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-primaria: "Montserrat", sans-serif
+}
+
+
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.cabecalho {
+    display: flex;
+    gap: 30%;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    padding: 1.5% 0;
+    gap: 24px;
+}
+
+.cabecalho__links {
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    font-size: 24px;
+    color: blue;
+    text-decoration: none;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5% 8%;
+    gap: 8px;
+}
+
+.apresentacao__paragrafros {
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao__paragrafo {
+    font-family: var(--font-primaria);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.rodape {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5% 0.5%;
+}
+
+.rodape__redes {
+    display: flex;
+    align-items: center;
+    padding: 0.5% 0.5%;
+    gap: 8px;
+}
+
+.rodape__img {
+    width: 36px;
+}
+
+.rodape__logo {
+    padding: 0 1%;
+}
