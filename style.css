@@ -193,6 +193,19 @@ body {
         width: 85%;
     }
 
+    .apresentacao-lancamento__container {
+        padding: 2% 0 2% 0;
+    }
+
+    .apresentacao-lancamento__button {
+        display: block;
+        margin: 0 auto;
+        padding: 0.5rem 0.5rem;
+        width: 40%;
+        border-radius: 0.5rem;
+        font-size: 0.8rem;
+    }
+
     .rodape__paragrafo {
         font-size: 0.8rem;
     }
