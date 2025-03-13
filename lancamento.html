@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lançamento</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="assets/logo-ford-256.png">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__link" href="index.html">Home</a>
+            <a class="cabecalho__link" href="lancamento.html">lancamento</a>
+            <a class="cabecalho__link" href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main class="apresentacao-lancamento">
+        <Iframe class="apresentacao-lancamento__video"
+            src="https://www.youtube.com/embed/vQsryuNmsL0"
+            allowfullscreen>
+        </Iframe>
+        <table class="apresentacao-lancamento__tabela">
+            <tr class="apresentacao-lancamento__linha">
+                <td> <img class="apresentacao-lancamento__linha__img" src="assets/XL Cabine.jpg" alt="XL Cabine"></td>
+                <td> <img class="apresentacao-lancamento__linha__img" src="assets/xls 2.2 diesel.jpg" alt="XLS 2.2 Diesel"></td>
+                <td> <img class="apresentacao-lancamento__linha__img" src="assets/storm.jpg" alt="Storm"></td>
+            </tr>
+            <tr class="apresentacao-lancamento__linha">
+                <td>
+                    <input type="checkbox" id="xl-cabine">
+                    <label for="xl-cabine">XL Cabine Simples 2.2 Diesel 4x4 MT</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="xl-diesel">
+                    <label for="xl-diesel">XLS 2.2 Diesel 4x4 AT 2022</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="storm">
+                    <label for="storm">Storm 3.2 Diesel 4x4 AT 2022</label>
+                </td>
+            </tr>
+            <tr class="apresentacao-lancamento__linha">
+                <td> <p>A partir de <span>R$</span> </p> </td>
+                <td> <p>A partir de <span>R$</span> </p> </td>
+                <td> <p>A partir de <span>R$</span> </p> </td>
+            </tr>
+        </table>
+        <div class="apresentacao-lancamento__container">
+            <button class="apresentacao-lancamento__button">Comparar Carros</button>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__redes">
+            <p class="rodape__paragrafo">Redes Sociais</p>
+            <a href="https://www.facebook.com/FordBrasil?locale=pt_BR" target="_blank">
+                <img class="rodape__img" src="assets/facebook-50.png">
+            </a>
+            <a href="https://www.instagram.com/fordbrasil/" target="_blank">
+                <img class="rodape__img" src="assets/instagram-logo-50.png">
+            </a>
+            <a href="https://www.youtube.com/fordbrasil" target="_blank">
+                <img class="rodape__img" src="assets/youtube-squared-50.png">
+            </a>
+        </div>
+        <img class="rodape__logo" src="assets/ford-96.png">
+    </footer>
+</body>
+</html>

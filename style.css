@@ -31,6 +31,7 @@
 
 .cabecalho__link {
     font-family: var(--font-primaria);
+    color: darkblue;
     font-weight: 400;
     font-size: 1.25rem;
     text-decoration: none;
@@ -63,12 +64,50 @@ body {
 }
 
 .apresentacao__img-container {
-    
+    display: flex;
 }
 
 .apresentacao__img {
     width: 100%;
+    border-radius: 0.5rem;
 }
+
+.apresentacao-lancamento {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1% 0 0 0;
+}
+
+.apresentacao-lancamento__video {
+    height: 56%;
+}
+
+.apresentacao-lancamento__tabela {
+    display: table;
+    margin: 0 auto;
+    border-spacing: 5rem 0.2rem;
+}
+
+.apresentacao-lancamento__container {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0 0 0;
+}
+
+.apresentacao-lancamento__button {
+    display: block;
+    margin: 0 auto;
+    background-color: #5353ec;
+    color: white;
+    padding: 0.7rem 0.7rem;
+    width: 15%;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-color: black;
+}
+
 
 .rodape {
     background-color: blue;
@@ -93,9 +132,76 @@ body {
     padding: 0 1%;
 }
 
-@media (max-width: 1200px) {
+.rodape__paragrafo {
+    color: white;
+    font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .cabecalho {
+        padding: 5% 0;
+    }
+
+    .cabecalho__logo {
+        width: 15%;
+    }
+
+    .cabecalho__menu {
+
+    }
+
+    .cabecalho__link {
+        font-size: 1rem;
+    }
+    
     .apresentacao {
         padding: 0;
         justify-content: center;
+    }
+
+    .apresentacao__paragrafo {
+        font-size: 0.75rem;
+    }
+
+    .apresentacao__img-container {
+        height: 65vh;
+        width: 100%;
+        padding: 0 0.2%;
+    }
+
+    .apresentacao__img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        object-position: 30%;
+    }
+
+
+    .apresentacao-lancamento__tabela {
+        display: block;
+        width: 100%;
+    }
+
+    .apresentacao-lancamento__linha {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .apresentacao-lancamento__linha__img {
+        width: 85%;
+    }
+
+    .rodape__paragrafo {
+        font-size: 0.8rem;
+    }
+
+    .rodape__img {
+        width: 1.5rem;
+    }
+
+    .rodape__logo {
+        width: 17%;
     }
 }
