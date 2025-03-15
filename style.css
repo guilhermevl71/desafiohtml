@@ -31,7 +31,7 @@
 
 .cabecalho__link {
     font-family: var(--font-primaria);
-    color: darkblue;
+    color: blue;
     font-weight: 400;
     font-size: 1.25rem;
     text-decoration: none;
@@ -151,6 +151,58 @@ body {
     flex: 1;
 }
 
+.linha {
+    margin-top: 0.5%;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 0.5rem;
+}
+
+.form__input {
+    border-style: solid;
+    border-radius: 0.6rem;
+    border-color: #808080;
+    padding: 0.6rem 0 0.6rem 0.2rem;
+}
+
+.form-img {
+    width: 20%;
+    height: 50%;
+}
+
+.form-button {
+    background-color: #1919e6;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.7rem 0;
+    width: 60%;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #5353ec;
+}
+
+.container-button {
+    display: flex;
+    justify-content: right;
+}
+
+.form-text {
+    font-family: var(--font-primaria);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
 
 .rodape {
     background-color: blue;
@@ -187,10 +239,6 @@ body {
 
     .cabecalho__logo {
         width: 15%;
-    }
-
-    .cabecalho__menu {
-
     }
 
     .cabecalho__link {
@@ -260,6 +308,20 @@ body {
         padding: 0.7rem 4rem;
         border-radius: 0.5rem;
         font-size: 0.9rem;
+    }
+
+    .container-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        width: 85%;
+    }
+
+    .form-img {
+        width: 75%;
+        height: 50%;
     }
 
     .rodape__paragrafo {
