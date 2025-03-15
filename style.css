@@ -127,6 +127,16 @@ body {
     border-color: black;
 }
 
+.apresentacao-lancamento__label {
+    color: #5353ec;
+    font-size: 1rem;
+}
+
+.apresentacao-lancamento__paragrafo {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
 .apresentacao-contato {
     flex: 1;
 }
@@ -199,34 +209,35 @@ body {
         object-position: 30%;
     }
 
-
-    .apresentacao-lancamento__tabela {
-        width: 100%;
-        border-spacing: 0;
-    }
-
     .apresentacao-lancamento__linha {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 1rem;
     }
 
     .apresentacao-lancamento__linha__coluna {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apresentacao-lancamento__tabela__input {
+        margin-right: 1rem;
+    }
+
+    .tabela-container {
         width: 100%;
     }
 
     .apresentacao-lancamento__linha__img {
-        width: 45%;
+        width: 65%;
     }
 
-    .apresentacao-lancamento__paragrafo, .apresentacao-lancamento__label {
-        display: block;
-        text-align: center;
-        font-size: 16px;
-        margin-top: 10px;
+    .apresentacao-lancamento__label {
+        font-size: 1.1rem;
+    }
+
+    .apresentacao-lancamento__paragrafo {
+        font-size: 0.75rem;
     }
 
     .apresentacao-lancamento__container {
