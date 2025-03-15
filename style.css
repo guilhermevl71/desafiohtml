@@ -105,7 +105,12 @@ body {
 }
 
 .apresentacao-lancamento__linha__img {
-    width: 80%;
+    width: 85%;
+    cursor: pointer;
+}
+
+.apresentacao-lancamento__linha__img:hover {
+    width: 95%;
 }
 
 .apresentacao-lancamento__container {
@@ -117,14 +122,19 @@ body {
 .apresentacao-lancamento__button {
     display: block;
     margin: 0 auto;
-    background-color: #5353ec;
+    background-color: #1919e6;
     color: white;
-    padding: 0.7rem 0.7rem;
-    width: 15%;
+    padding: 0.8rem 6rem;
     border-radius: 0.5rem;
+    border-style: solid;
+    border-color: black;
     font-size: 1rem;
     cursor: pointer;
-    border-color: black;
+    margin-top: 1.5%;
+}
+
+.apresentacao-lancamento__button:hover {
+    background-color: #5353ec;
 }
 
 .apresentacao-lancamento__label {
@@ -247,10 +257,9 @@ body {
     .apresentacao-lancamento__button {
         display: block;
         margin: 0 auto;
-        padding: 0.5rem 0.5rem;
-        width: 40%;
+        padding: 0.7rem 4rem;
         border-radius: 0.5rem;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .rodape__paragrafo {
